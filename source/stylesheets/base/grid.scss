@@ -1,0 +1,72 @@
+//-----------------------------------------
+// Simple CSS Grid
+// https://github.com/callum-/flynn
+//-----------------------------------------
+
+.l-columns,
+.l-column {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.l-columns:after,
+.l-column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.l-column {
+    float: left;
+    padding: .5em;
+}
+
+.no-gutter {
+    padding: 0 !important;
+}
+
+/*
+12x column sizes
+================
+ 1. 8.333333333333334%
+ 2. 16.666666666666668%
+ 3. 25%
+ 4. 33.333333333333336%
+ 5. 41.66666666666667%
+ 6. 50%
+ 7. 58.333333333333336%
+ 8. 66.66666666666667%
+ 9. 75%
+10. 83.33333333333334%
+11. 91.66666666666667%
+12. 100%
+*/
+
+.l-column {
+    width: 8.333333333333334%;}
+
+.l-span-two {
+    width: 16.666666666666668%;}
+.l-span-three {
+    width: 25%;}
+.l-span-four {
+    width: 33.333333333333336%;}
+.l-span-five {
+    width: 41.66666666666667%;}
+.l-span-six {
+    width: 50%;}
+.l-span-seven {
+    width: 58.333333333333336%;}
+.l-span-eight {
+    width: 66.66666666666667%;}
+.l-span-nine {
+    width: 75%;}
+.l-span-ten {
+    width: 83.33333333333334%;}
+.l-span-eleven {
+    width: 91.66666666666667%;}
+.l-span-twelve {
+    width: 100%;}
