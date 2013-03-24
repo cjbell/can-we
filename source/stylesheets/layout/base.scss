@@ -1,9 +1,13 @@
 // Site content
 
 .l-site-width {
-  width: 960px;
+  width: 1000px;
+  margin: 0pt auto;
 }
 
-.l-site-content {
-       
+@media screen and (max-width:1000px) {
+  .l-site-width {
+    width: auto;
+    margin: 0 10px;
+  }
 }

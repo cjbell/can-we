@@ -6,12 +6,25 @@
   padding: 20px 0;
 }
 
+.header-inner {
+  text-align: center;
+  margin: 0pt auto;
+  width: 490px;
+
+  @media screen and (max-width:490px) {
+    width: auto;
+    margin: 0pt 10px;
+  }
+}
+
 .site-logo {
   font-style: italic;
   color: #000;
   margin: 0;
-  text-align: center;
   font-weight: normal;
   font-size: 6.25em;
 }
 
+.site-intro {
+  margin: 0pt auto;
+}

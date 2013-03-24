@@ -1,6 +1,40 @@
 .issues {
+  margin-top: 10px;
 }
 
 .issue {
+  @media screen and (max-width: 1000px) {
+    width: 33.333333333333336%
+  }
 
+  @media screen and (max-width: 760px) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+.issue__image {
+  width: 100%;
+  height: auto;
+}
+
+.issue__inner {
+  position: relative;
+}
+
+.issue__desc {
+  position: absolute;
+  top: 0; left: 0;
+  bottom: 0; right: 0; 
+  padding: 0 20px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.issue__number {
+  position: absolute;
+  bottom: 20px;
 }
