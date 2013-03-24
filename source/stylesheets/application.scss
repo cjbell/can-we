@@ -25,6 +25,15 @@
 //-----------------------------------------
 
 @import "modules/header";
+@import "modules/issues";
+@import "modules/article";
+
+// Blocks
+@import "modules/blocks/base";
+@import "modules/blocks/text";
+@import "modules/blocks/video";
+@import "modules/blocks/questions";
+@import "modules/blocks/gallery";
 
 //-----------------------------------------
 // States
