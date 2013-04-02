@@ -1,5 +1,6 @@
 ---
 title: Brew the perfect coffee | Can We
+intro: false
 ---
 
 <article class="article">
@@ -7,7 +8,7 @@ title: Brew the perfect coffee | Can We
   <header class="article__header">
     <h1 class="article__title">Brew the perfect coffee</h1>
   
-    <p class="article__intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu.</p>
+    <p class="article__intro centered-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu.</p>
 
     <div class="article__sharing">
 
@@ -33,40 +34,56 @@ title: Brew the perfect coffee | Can We
 
     <header class="block__header questions__intro text__content">
 
-      <h2>Firstname Surname <span>Jobtitle, 2013</span></h2>
+      <h2 class="block__title">Firstname Surname <span>Jobtitle, 2013</span></h2>
       
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu.</p>
+      <p class="centered-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu.</p>
     
     </header>
 
-    <img src="" class="block__image questions__intro-image">
+    <%= image_tag "walken.jpg", class: "block__image questions__intro-image with-block-top-margin" %>
 
     <div class="questions__content l-columns">
 
-      <div class="l-column--span-six">
-        <!-- Content -->
+      <div class="l-column l-column--span-six questions__content--first-col">
+        <h2>Question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h2>Question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
 
+      <div class="l-column l-column--span-six questions__content--last-col">
+        <h2>Question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-      <div class="l-column--span-six">
-        <!-- Content -->
+        <h2>Question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
 
     </div>
 
     <blockquote class="questions__breakout">
-      "This is a quote"
+      “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean sed blandit massa. Fusce facilisis suscipit risus, 
+id scelerisque sapien luctus ac.”
     </blockquote>
 
     <div class="questions__content l-columns">
 
-      <div class="l-column--span-six">
-        <!-- Content -->
+      <div class="l-column l-column--span-six questions__content--first-col">
+        <h2>Question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h2>Question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
 
+      <div class="l-column l-column--span-six questions__content--last-col">
+        <h2>Question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-      <div class="l-column--span-six">
-        <!-- Content -->
+        <h2>Question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
 
     </div>
@@ -75,11 +92,53 @@ title: Brew the perfect coffee | Can We
 
   <section class="block block--equipment">
     
-    <h2 class="block-title">The equipment</h2>
+    <h2 class="block__title">The equipment</h2>
 
-    <div class="equipment-used l-columns">
+    <div class="equipment-used l-columns with-block-top-margin">
 
-      <div class="equipment l-column--span-six">
+      <div class="equipment l-column l-column--span-six">
+        <img src="" class="equipment__image">
+
+        <div class="equipment__content">
+          <h3 class="equipment__title">Equipment title</h3>
+
+          <p class="equipment__info">
+            Price £19.99.<br>
+            Retailer <a href="#" class="equipment__purchase-link">Buy here</a>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="equipment l-column l-column--span-six">
+        <img src="" class="equipment__image">
+
+        <div class="equipment__content">
+          <h3 class="equipment__title">Equipment title</h3>
+
+          <p class="equipment__info">
+            Price £19.99.<br>
+            Retailer <a href="#" class="equipment__purchase-link">Buy here</a>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="equipment l-column l-column--span-six">
+        <img src="" class="equipment__image">
+
+        <div class="equipment__content">
+          <h3 class="equipment__title">Equipment title</h3>
+
+          <p class="equipment__info">
+            Price £19.99.<br>
+            Retailer <a href="#" class="equipment__purchase-link">Buy here</a>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="equipment l-column l-column--span-six">
         <img src="" class="equipment__image">
 
         <div class="equipment__content">
@@ -99,25 +158,37 @@ title: Brew the perfect coffee | Can We
 
   <section class="block block--gallery block--full-width">
 
-    <div class="gallery-content">
+    <h2 class="block__title">On the day</h2>
+
+    <div class="gallery-content with-block-top-margin">
       
-      <img src="" class="gallery__item">
-      <img src="" class="gallery__item">
-      <img src="" class="gallery__item">
-      <img src="" class="gallery__item">
+      <%= image_tag "walken.jpg", class: "gallery__item" %>
+      <%= image_tag "walken.jpg", class: "gallery__item" %>
+      <%= image_tag "walken.jpg", class: "gallery__item" %>
+      <%= image_tag "walken.jpg", class: "gallery__item" %>
 
     </div>
 
   </section>
 
-  <section class="block block--text">
+  <section class="block block--text block--bottom-padding">
     <h2 class="block__title">Thanks to</h2>
 
-    <div class="text__content">
-      <h3>Person / Business</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu.</p>
+    <div class="text__content with-block-top-margin">
+      <h3 class="block__title">Person / Business</h3>
+
+      <p class="centered-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu.</p>
+    </div>
+
+    <div class="text__content with-block-top-margin">
+      <h3 class="block__title">Person / Business</h3>
+
+      <p class="centered-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu.</p>
     </div>
 
   </section>
 
+  <section class="block block--comments block--full-width block--no-bottom-border block--bottom-padding">
+    <h2 class="block__title">Comments</h2>
+  </section>
 </article>

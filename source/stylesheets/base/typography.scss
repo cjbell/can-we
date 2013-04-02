@@ -11,8 +11,10 @@ html, body {
 h1, h2, h3, h4, h5, h6,
 .h-headline, .h-subheadline, .h-byline, 
 .h-standfirst, .h-related, .h-promo {
+  margin: 0;
   line-height: 1.1;
   margin-bottom: 0.25em;
+  font-weight: normal;
 }
 
 h1, .h-headline { font-size: 3em }
@@ -24,7 +26,7 @@ h6, .h-promo { font-size: 1.1em; }
 
 p {
   font-size: 1.33em; 
-  line-height: 1;
+  line-height: 1.25;
   margin-bottom: 0.25em; 
 }
 

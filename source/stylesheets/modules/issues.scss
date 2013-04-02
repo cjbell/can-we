@@ -1,5 +1,6 @@
 .issues {
   margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .issue {
@@ -29,12 +30,41 @@
   position: absolute;
   top: 0; left: 0;
   bottom: 0; right: 0; 
-  padding: 0 20px;
+  padding: 20px;
   color: #fff;
   background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+}
+
+.issue__link {
+  display: block;
+  color: #fff;
+}
+
+.issue__link:hover .issue__desc {
+  opacity: 1;
 }
 
 .issue__number {
   position: absolute;
   bottom: 20px;
+  font-size: 1.125em;
+  font-style: italic;
+}
+
+.issue__title {
+  font-style: italic;
+  font-size: 1.875em;
+}
+
+/* Future Issue */
+
+.issue--future .issue__inner {
+  padding-top: 126.49%;
+}
+
+.issue__desc--future {
+  background-color: #fff;
+  color: #777;
+  opacity: 1;
 }

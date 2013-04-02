@@ -1,0 +1,31 @@
+.extra-large-title {
+  font-style: italic;
+  color: #000;
+  margin: 0;
+  font-weight: normal;
+  font-size: 6.25em;
+
+  @media screen and (max-width:760px) {
+    font-size: 4.5em;
+  }
+
+  @media screen and (max-width:480px) {
+    font-size: 3.5em;
+  }
+}
+
+.centered-text {
+  margin-right: 27%;
+  margin-left: 27%;
+  text-align: center;
+
+  @media screen and (max-width:760px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  @media screen and (max-width:480px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

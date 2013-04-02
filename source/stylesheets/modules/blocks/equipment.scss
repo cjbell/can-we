@@ -1,0 +1,25 @@
+.equipment {
+  margin-bottom: 10px;
+
+  @media screen and (max-width:760px) {
+  }
+
+  @media screen and (max-width:480px) {
+    width: auto;
+    float: none;
+  }
+}
+
+.equipment__title {
+  @extend .block__title;
+  text-align: left;
+}
+
+.equipment__image {
+  width: 100%;
+  background: #fff;
+}
+
+.equipment__content {
+  padding: 30px 20px;
+}

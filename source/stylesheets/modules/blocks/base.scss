@@ -1,22 +1,41 @@
 // Base Blocks
-
 .block {
+  padding-bottom: 0px;
+  font-style: italic;
+  color: #777;
 }
 
-// Modifier classes
-
 .block--no-bottom-border {
-
+  border-bottom: 0;
 }
 
 .block--full-width {
-  
+  width: auto;
+}
+
+.block--bottom-padding {
+  padding-bottom: 60px;
+}
+
+.block__title {
+  font-size: 1.25em;
+  color: #000;
+  text-align: center;
+}
+
+.with-block-top-margin {
+  margin-top: 50px;
+}
+
+.block--comments {
+  background-color: #fff;
 }
 
 // Generic elements
 
 .block__image {
-  
+  width: 100%;
+  height: auto!important;
 }
 
 .block__video {

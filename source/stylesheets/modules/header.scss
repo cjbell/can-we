@@ -13,16 +13,17 @@
 
   @media screen and (max-width:490px) {
     width: auto;
-    margin: 0pt 10px;
+    margin: 0pt 20px;
   }
 }
 
 .site-logo {
-  font-style: italic;
-  color: #000;
-  margin: 0;
-  font-weight: normal;
-  font-size: 6.25em;
+  @extend .extra-large-title;
+  margin-bottom: 20px;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .site-intro {
