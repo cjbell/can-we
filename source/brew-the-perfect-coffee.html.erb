@@ -6,7 +6,7 @@ intro: false
 <article class="article">
   
   <header class="article__header">
-    <h1 class="article__title">Brew the perfect coffee</h1>
+    <h1 class="article__title">Brew the<br />perfect coffee</h1>
   
     <p class="article__intro centered-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit massa. Fusce facilisis suscipit risus, id scelerisque sapien luctus ac. Praesent placerat magna at elit eleifend viverra class aptent taciti sociosqu.</p>
 
@@ -161,17 +161,17 @@ id scelerisque sapien luctus ac.”
     <h2 class="block__title">On the day</h2>
 
     <div class="gallery-content with-block-top-margin">
-      
-      <%= image_tag "walken.jpg", class: "gallery__item" %>
-      <%= image_tag "walken.jpg", class: "gallery__item" %>
-      <%= image_tag "walken.jpg", class: "gallery__item" %>
-      <%= image_tag "walken.jpg", class: "gallery__item" %>
-
+      <div class="gallery-content__inner">
+        <%= image_tag "walken.jpg", class: "gallery__item" %>
+        <%= image_tag "walken.jpg", class: "gallery__item" %>
+        <%= image_tag "walken.jpg", class: "gallery__item" %>
+        <%= image_tag "walken.jpg", class: "gallery__item" %>
+      </div>
     </div>
 
   </section>
 
-  <section class="block block--text block--bottom-padding">
+  <section class="block block--text block--top-border with-block-top-margin block--bottom-padding">
     <h2 class="block__title">Thanks to</h2>
 
     <div class="text__content with-block-top-margin">

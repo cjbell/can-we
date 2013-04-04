@@ -1,3 +1,16 @@
+.gallery-content {
+  @extend .l-sixteen-by-nine;
+  padding-top: 55.28%;
+  overflow: hidden;
+}
+
+.gallery-content__inner {
+  position: absolute;
+  top: 0; left: 0;
+}
+
 .gallery__item {
   @extend .block__image;
+  float: left;
 }
+

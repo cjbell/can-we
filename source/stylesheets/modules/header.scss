@@ -19,7 +19,6 @@
 
 .site-logo {
   @extend .extra-large-title;
-  margin-bottom: 20px;
 
   a {
     text-decoration: none;
@@ -28,4 +27,17 @@
 
 .site-intro {
   margin: 0pt auto;
+}
+
+.header__social {
+  margin: 20px 0 30px 0;
+}
+
+.header__social .social-icon {
+  color: #8f8f8f;
+}
+
+.header__social .social-icon:hover {
+  color: #000;
+  text-decoration: none;
 }

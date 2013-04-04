@@ -1,12 +1,15 @@
 // Base Blocks
 .block {
   padding-bottom: 0px;
-  font-style: italic;
   color: #777;
 }
 
 .block--no-bottom-border {
   border-bottom: 0;
+}
+
+.block--top-border {
+  border-top: 1px solid #d1d1d1;
 }
 
 .block--full-width {

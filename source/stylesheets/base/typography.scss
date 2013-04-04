@@ -2,8 +2,30 @@
 // Typography Basics
 //-----------------------------------------
 
+@font-face {
+  font-family: 'arno_probold_italic';
+  src: url('../fonts/arno_pro_bold_italic-webfont.eot');
+  src: url('../fonts/arno_pro_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/arno_pro_bold_italic-webfont.woff') format('woff'),
+       url('../fonts/arno_pro_bold_italic-webfont.ttf') format('truetype'),
+       url('../fonts/arno_pro_bold_italic-webfont.svg#arno_probold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arno_proitalic';
+  src: url('../fonts/arno_pro_italic-webfont.eot');
+  src: url('../fonts/arno_pro_italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/arno_pro_italic-webfont.woff') format('woff'),
+       url('../fonts/arno_pro_italic-webfont.ttf') format('truetype'),
+       url('../fonts/arno_pro_italic-webfont.svg#arno_proitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
-  font-family: 'Georgia', serif;
+  font-family: 'arno_proitalic', 'Georgia', serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -15,6 +37,7 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.1;
   margin-bottom: 0.25em;
   font-weight: normal;
+  font-family: 'arno_probold_italic', 'arno_proitalic', 'Georgia', serif;
 }
 
 h1, .h-headline { font-size: 3em }

@@ -2,18 +2,14 @@
   <div class="header-inner">
 
     <h1 class="site-logo">
-      <%= link_to "Can We", "/" %>
+      <%= link_to "Can we", "/" %>
     </h1>
     
     <% if data.page.intro.nil? %>
       <p class="site-intro">We love the finely crafted: the knowledge, the tools, the outcome. We celebrate tackling new challenges and delving into unconventional topics. We will mark our adventures for everyone: what we did, the mistakes and our successes.</p>
 
       <nav class="header__social">
-        <ul class="header__social-list">
-          <li class="header__social-item">
-            <a href="#"></a>
-          </li>
-        </ul>
+        <%= partial "social" %>
       </nav>
     <% end %>
 

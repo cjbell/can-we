@@ -1,5 +1,20 @@
 .site-footer {
   background-color: #000;
   color: #fff;
-  padding: 60px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.site-footer p {
+  font-family: 'arno_probold_italic', 'Georgia', serif;
+  margin: 15px 0;
+}
+
+.footer__social .social-icon {
+  color: #8f8f8f;
+}
+
+.footer__social .social-icon:hover {
+  color: #fff;
+  text-decoration: none;
 }
