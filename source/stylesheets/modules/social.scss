@@ -11,4 +11,6 @@ ul .social-list__item:last-child {
 
 .social-icon {
   text-decoration: none;
+  @include transition(color 0.07s);
 }
+

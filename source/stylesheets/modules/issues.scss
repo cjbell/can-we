@@ -34,6 +34,11 @@
   color: #fff;
   background-color: rgba(0,0,0,0.5);
   opacity: 0;
+  @include transition(all 0.2s);
+
+  @media screen and (max-width: 480px) {
+    opacity: 1;     
+  }
 }
 
 .issue__link {
@@ -54,6 +59,10 @@
 .issue__title {
   font-family: 'arno_proitalic', 'Georgia', serif;
   font-size: 1.875em;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2.5em; 
+  }
 }
 
 /* Future Issue */

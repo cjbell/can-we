@@ -1,1 +1,1 @@
-ul .social-list__item{margin-right:20px}ul .social-list__item:last-child{margin-right:0}.social-icon{text-decoration:none}
+body:before{white-space:pre;font-family:monospace;content:"Syntax error:Undefined mixin 'transition'.\A on line 14 of /Users/cjbell/Sites/can-we/source/stylesheets/modules/social.scss,in `transition'\A from line 14 of /Users/cjbell/Sites/can-we/source/stylesheets/modules/social.scss\A \A 9:margin-right:0;\A 10:}\A 11:\A 12:.social-icon{\A 13:text-decoration:none;\A 14:@include transition(color .07s);\A 15:}"}
