@@ -25,6 +25,7 @@ proxy "/2013/04/brew-the-perfect-coffee.html", 'brew-the-perfect-coffee.html'
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+set :build_dir, 'public'
 
 # Build-specific configuration
 configure :build do
