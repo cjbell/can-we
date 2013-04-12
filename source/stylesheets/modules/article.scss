@@ -3,6 +3,11 @@
   @extend .l-site-width;
   padding: 60px 0;
   border-bottom: 1px solid #d1d1d1;
+
+  @media screen and (max-width:480px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .article__header {

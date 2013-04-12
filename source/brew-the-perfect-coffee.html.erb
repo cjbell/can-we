@@ -1,6 +1,9 @@
 ---
 title: Brew the perfect coffee | Can We
 intro: false
+classes: content-page
+module: content
+action: show
 ---
 
 <article class="article">
@@ -156,7 +159,7 @@ id scelerisque sapien luctus ac.”
 
   </section>
 
-  <section class="block block--gallery block--full-width">
+  <section class="block block--gallery block--full-width block--no-bottom-border">
 
     <h2 class="block__title">On the day</h2>
 
@@ -188,7 +191,12 @@ id scelerisque sapien luctus ac.”
 
   </section>
 
-  <section class="block block--comments block--full-width block--no-bottom-border block--bottom-padding">
+  <section class="block block--comments block--full-width block--no-bottom-border">
     <h2 class="block__title">Comments</h2>
+
+    <div class="comments__wrapper">
+      <div class="fb-comments" data-href="http://can-we-staging.herokuapp.com<%= current_page.url %>" data-width="470" data-num-posts="10"></div>
+    </div>
+
   </section>
 </article>

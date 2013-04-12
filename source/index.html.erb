@@ -16,14 +16,17 @@ title:
         </a>
       </div>
     </article>
-
-    <article class="issue issue--future l-column l-column--span-three">
-      <div class="issue__inner">
-        <header class="issue__desc issue__desc--future">
-          <h2 class="issue__title">Coming May</h2>
-          <span class="issue__number">Issue 02</span>
-        </header>
-      </div>
-    </article>
+    <% issue_no = 1 %>
+    <% %w(May June July August September October November December).each do |month| %>
+      <article class="issue issue--future l-column l-column--span-three">
+        <div class="issue__inner">
+          <header class="issue__desc issue__desc--future">
+            <h2 class="issue__title">Coming <%= month %></h2>
+            <span class="issue__number">Issue <%= issue_no.to_s.rjust(2, '0') %></span>
+          </header>
+        </div>
+      </article>
+      <% issue_no += 1 %>
+    <% end %>
 
   </section>
