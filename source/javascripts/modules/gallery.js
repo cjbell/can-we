@@ -26,13 +26,15 @@
     },
 
     on_window_resize: function() {
-      var max_width = Math.min(960, this.$w.width()),
+      var max_width = this.$w.width(),
           calculated_size = this.calculate_item_size(max_width),
-          gutters = ((max_width + 10) / 10);
+          gutters = (calculated_size * 0.15);
 
       this.update_item_sizes(calculated_size);
       this.update_container_width(calculated_size + 10);
       this.offset_container(gutters);
+
+      this.$inner.css({ 'left': -(this.current_width * this.current_index) + 'px' });
 
       this.current_gutter = gutters;
       this.current_width = calculated_size + 10;
@@ -43,10 +45,11 @@
           index = this.$items.index(item);
 
       this.$inner.css({ 'left': -(this.current_width * index) + 'px' });
+      this.current_index = index;
     },
 
     calculate_item_size: function(max_width) {
-      return Math.floor(max_width - (max_width / 10));
+      return Math.floor(max_width - (max_width * 0.15));
     },
 
     update_item_sizes: function(width) {
