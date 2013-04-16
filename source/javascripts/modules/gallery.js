@@ -34,10 +34,10 @@
       this.update_container_width(calculated_size + 10);
       this.offset_container(gutters);
 
-      this.$inner.css({ 'left': -(this.current_width * this.current_index) + 'px' });
-
       this.current_gutter = gutters;
-      this.current_width = calculated_size + 10;
+      this.current_width = calculated_size;
+
+      this.$inner.css({ 'left': -(this.current_width * this.current_index) + 'px' });
     },
 
     on_item_click: function(e) {
